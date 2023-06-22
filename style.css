@@ -1,0 +1,89 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-image: url(./assets/images/spiderman.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;  
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+.left>.tile-image{
+  height: 200px;
+  width: 200px;
+  margin: 0 10px;
+  float: left;
+}
+.card-title{
+  display: block;
+  color: burlywood;
+  margin: 0;
+}
+.main {
+  flex: 1;
+}
+p{
+  color: whitesmoke;
+}
+
+.right>.tile-image{
+  height: 200px;
+  width: 200px;
+  margin: 0 10px;
+  float:right;
+}
+.right{
+  margin: 25px;
+}
+.right>.card-title{
+  text-align: right;
+}
+.right>p{
+  text-align: right;
+  
+}
+footer{
+  text-align: center;
+}
+footer>p {
+  text-align: center;
+  color: white;
+  display: inline;
+}
+@media (max-width:680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
